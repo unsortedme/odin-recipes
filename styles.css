@@ -3,6 +3,8 @@ body {
     padding: 2em;;
 }
 
+
+
 h1 {
     font-family: Nunito, sans-serif;
     background-color: pink;
@@ -18,6 +20,11 @@ ul a {
     font-family: Nunito, sans-serif;
     font-weight: 800;  
     color: rgb(70, 36, 55);
+}
+
+a:hover {
+    color: rgb(119, 47, 88);
+    text-decoration: underline;
 }
 
 ul {
