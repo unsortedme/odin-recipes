@@ -1,28 +1,45 @@
-body {
-    margin: 0;
-    padding: 2em;
+
+
+.img-recipe {
+    display: block; 
+    margin: auto;
 }
 
+div {
+    padding: 1em 1.5em;
+    background-color: rgb(255, 234, 239);
+    margin: 2em;
+}
 
 h1 {
     font-family: Nunito, Tahoma, sans-serif;
-    
     font-size: 3em;
-    
     padding-bottom: 0.5em;
     color: darkred;
     margin-bottom: 0.5em;
+    text-align: center;
+
+}
+
+.homepage-h1 {
+    border-bottom: 3px solid pink;
+    border-right: 3px solid pink;
+    padding: 0.25em;
+    margin-top: 1em;
+    text-align: left;
+    background-color: rgb(255, 235, 238);
 
 }
 
 h2 {
-    padding-top: 2em;
+    
     font-family: Nunito, Tahoma, sans-serif;
 }
 
 h3 {
     padding-top: 1em;
     font-family: Nunito, Tahoma, sans-serif;
+    text-decoration: underline solid black 1.5px;
 }
 
 .img-recipe {
@@ -34,11 +51,9 @@ p,ul,ol {
     font-family: Nunito, sans-serif;
 }
 
-
 ol li {
     padding-bottom: 1.5em;
 }
-
 
 ul a {    
     text-decoration: none; 
@@ -52,15 +67,21 @@ a:hover {
     text-decoration: underline;
 }
 
-ul {
-    background-color: rgb(255, 234, 238);
+.homepage-card {
     padding: 1em;
     padding-left: 2.5em;
     font-family: Nunito, sans-serif;
-    line-height: 2em;
-    margin: 0;
+    
 }
 
 .credits {
     padding-top: 2em;
+    text-align: center;
+    padding-bottom: 2em;
 }
+
+ul {
+    line-height: 2.5em;
+}
+
+
